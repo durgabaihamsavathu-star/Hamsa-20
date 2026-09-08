@@ -1,0 +1,141 @@
+/* Whole Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+
+/* Main Heading */
+h1 {
+    color: blue;
+    font-family: Georgia, serif;
+}
+
+
+/* Section Headings */
+h2 {
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* Navigation */
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* First Paragraph */
+.paragraph1 {
+    color: red;
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+}
+
+
+/* Second Paragraph */
+.paragraph2 {
+    color: green;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+}
+
+
+/* Signup Button */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Stock Table */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Table Heading */
+th {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+
+/* Table Data */
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Table Hover */
+tr:hover {
+    background-color: lightyellow;
+}
+
+
+/* Register Form */
+form {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    border: 2px solid blue;
+}
+
+
+/* Form Inputs */
+input {
+    padding: 8px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* City Select Button */
+.city-select {
+    color: white;
+    background-color: skyblue;
+
+    /* Padding */
+    padding: 10px;
+
+    /* Margin: Top Right Bottom Left */
+    margin: 20px 30px 15px 40px;
+
+    border: 1px solid blue;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* Register Button */
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* Clear Button */
+input[type="reset"] {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
