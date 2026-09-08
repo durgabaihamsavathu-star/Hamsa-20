@@ -1,282 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+<header id="header" class="main-header" title="Website Header">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Welcome to My Trading Platform</h1>
 
-    <title>Zerodha Style Website</title>
+    <img src="https://zerodha.com/static/images/logo.svg"
+         alt="Zerodha Logo"
+         title="Zerodha Logo"
+         width="150">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+</header>
 
-<body>
+<br>
 
-<center>
+<nav id="navigation" class="menu">
 
-    <!-- Header -->
-    <header id="header" class="main-header" title="Website Header">
+    <a href="#" title="Signup Page">Signup</a>
+    <a href="#" title="About Page">About</a>
+    <a href="#" title="Products Page">Products</a>
+    <a href="#" title="Pricing Page">Pricing</a>
+    <a href="#" title="Support Page">Support</a>
 
-        <h1>My Zerodha Website</h1>
+</nav>
 
-        <img src="https://zerodha.com/static/images/logo.svg"
-             alt="Zerodha Logo"
-             title="Zerodha Logo"
-             width="150">
+<br><br>
 
-    </header>
+<main id="main-content">
 
-    <br>
+    <h2>Invest Smart. Grow Better.</h2>
 
-    <!-- Navigation -->
-    <nav id="navigation" class="menu">
+    <p id="paragraph1"
+       class="paragraph1"
+       title="Investment Information">
 
-        <a href="#" title="Signup Page">Signup</a>
-        <a href="#" title="About Page">About</a>
-        <a href="#" title="Products Page">Products</a>
-        <a href="#" title="Pricing Page">Pricing</a>
-        <a href="#" title="Support Page">Support</a>
+        Invest Smart. Trade Simple. Build Your Financial Future.
 
-    </nav>
+    </p>
 
-    <br><br>
+    <p id="paragraph2"
+       class="paragraph2"
+       title="Platform Information">
 
-    <!-- Main Content -->
-    <main id="main-content">
+        A simple and user-friendly platform for stocks, trading and investments.
 
-        <h2>Invest in everything</h2>
+    </p>
 
-        <!-- First Paragraph -->
-        <p id="paragraph1"
-           class="paragraph1"
-           title="Investment Information">
+    <button id="signup-button"
+            class="signup-btn"
+            title="Click to Signup">
 
-            Invest Smart. Trade Simple. Grow with Confidence.
+        Start Investing
 
-        </p>
-
-        <!-- Second Paragraph -->
-        <p id="paragraph2"
-           class="paragraph2"
-           title="Platform Information">
-
-            Simple, safe and easy platform for all your investment needs.
-
-        </p>
-
-        <!-- Signup Button -->
-        <button id="signup-button"
-                class="signup-btn"
-                title="Click to Signup">
-
-            Signup
-
-        </button>
-
-        <br><br>
-
-        <!-- YouTube Video -->
-        <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/7w7LUaLpM4E"
-            title="Zerodha Video"
-            allowfullscreen>
-        </iframe>
-
-        <br><br><br>
-
-        <!-- Stock Table -->
-        <h2>Stock Market</h2>
-
-        <table id="stock-table"
-               class="stock-table"
-               title="Stock Market Table">
-
-            <tr>
-                <th>Company</th>
-                <th>Ticker</th>
-                <th>Price</th>
-            </tr>
-
-            <tr>
-                <td>Apple</td>
-                <td>AAPL</td>
-                <td>$225</td>
-            </tr>
-
-            <tr>
-                <td>Microsoft</td>
-                <td>MSFT</td>
-                <td>$410</td>
-            </tr>
-
-            <tr>
-                <td>Google</td>
-                <td>GOOGL</td>
-                <td>$200</td>
-            </tr>
-
-            <tr>
-                <td>Amazon</td>
-                <td>AMZN</td>
-                <td>$230</td>
-            </tr>
-
-        </table>
-
-        <br><br><br>
-
-        <!-- Register Form -->
-        <h2>Register Form</h2>
-
-        <form id="register-form"
-              class="register-form"
-              action="#"
-              method="post">
-
-            <!-- Full Name -->
-            <label for="fullname">Full Name:</label>
-
-            <input type="text"
-                   id="fullname"
-                   name="fullname"
-                   value="Durga Bai"
-                   placeholder="Enter your full name"
-                   title="Enter your full name"
-                   required>
-
-            <br><br>
-
-            <!-- Email -->
-            <label for="email">Email:</label>
-
-            <input type="email"
-                   id="email"
-                   name="email"
-                   value="durga@gmail.com"
-                   placeholder="Enter your email"
-                   title="Enter your email"
-                   required>
-
-            <br><br>
-
-            <!-- Phone -->
-            <label for="phone">Phone:</label>
-
-            <input type="tel"
-                   id="phone"
-                   name="phone"
-                   value="9876543210"
-                   placeholder="Enter phone number"
-                   title="Enter your phone number"
-                   maxlength="10"
-                   required>
-
-            <br><br>
-
-            <!-- Password -->
-            <label for="password">Password:</label>
-
-            <input type="password"
-                   id="password"
-                   name="password"
-                   value="durga123"
-                   placeholder="Enter password"
-                   minlength="6"
-                   title="Password must contain at least 6 characters"
-                   required>
-
-            <br><br>
-
-            <!-- Date of Birth -->
-            <label for="dob">Date of Birth:</label>
-
-            <input type="date"
-                   id="dob"
-                   name="dob"
-                   value="2004-05-15"
-                   required>
-
-            <br><br>
-
-            <!-- Gender -->
-            <label>Gender:</label>
-
-            <input type="radio"
-                   id="female"
-                   name="gender"
-                   value="Female"
-                   checked>
-
-            <label for="female">Female</label>
-
-            <input type="radio"
-                   id="male"
-                   name="gender"
-                   value="Male">
-
-            <label for="male">Male</label>
-
-            <br><br>
-
-            <!-- City -->
-            <label for="city">City:</label>
-
-            <select id="city"
-                    name="city"
-                    class="city-select"
-                    title="Select your city">
-
-                <option value="Hyderabad" selected>
-                    Hyderabad
-                </option>
-
-                <option value="Chennai">
-                    Chennai
-                </option>
-
-                <option value="Bangalore">
-                    Bangalore
-                </option>
-
-                <option value="Mumbai">
-                    Mumbai
-                </option>
-
-            </select>
-
-            <br><br>
-
-            <!-- Terms -->
-            <input type="checkbox"
-                   id="terms"
-                   name="terms"
-                   value="accepted"
-                   checked
-                   required>
-
-            <label for="terms">
-                I agree to the terms and conditions
-            </label>
-
-            <br><br>
-
-            <!-- Buttons -->
-            <input type="submit"
-                   value="Register"
-                   title="Submit Registration">
-
-            <input type="reset"
-                   value="Clear"
-                   title="Clear Form">
-
-        </form>
-
-    </main>
-
-</center>
-
-</body>
-
-</html>
+    </button>
